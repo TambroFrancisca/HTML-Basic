@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Form" />
+    <meta name="author" content="Francisca " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .container {
+        border-radius: 2px;
+        background-color: #f2f2f2;
+        padding: 12px;
+      }
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        margin: 8px 0;
+      }
+
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" method="POST">
+        <label for="fname">First Name</label> <br />
+        <input type="text" name="fname" id="fname" placeholder="Your name.." />
+        <br />
+
+        <label for="lname">Last Name</label> <br />
+        <input type="text" name="lname" id="lname" />
+        <br />
+
+        <label for="country">Country</label> <br />
+        <select name="country" id="cuntry" class="form-controls">
+          <option value="au">Australia</option>
+          <option value="gh">Ghana</option>
+          <option value="usa">USA</option>
+        </select>
+        <br />
+
+        <label for="textarea">Subject</label> <br />
+        <textarea
+          name="textarea"
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Write something"
+        ></textarea>
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

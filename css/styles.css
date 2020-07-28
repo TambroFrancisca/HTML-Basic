@@ -1,0 +1,20 @@
+#Francisca{
+    color: crimson;
+    font-size: 100px;
+    background-color: cyan;
+
+}
+table{
+ background-color: forestgreen;
+
+}
+li{
+ margin: 50px;background-color: lawngreen;
+ padding: 20px;border: 5px solid black;
+}
+.form-control{
+ border:20px solid purple;background-color: seagreen;
+}
+body{
+ background-color: pink;
+}
